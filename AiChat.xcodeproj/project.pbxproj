@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF43BC512CBFACAF00CD2EDA /* AiChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC502CBFACAF00CD2EDA /* AiChatApp.swift */; };
+		DF43BC532CBFACAF00CD2EDA /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC522CBFACAF00CD2EDA /* ChatScreen.swift */; };
+		DF43BC552CBFACB000CD2EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF43BC542CBFACB000CD2EDA /* Assets.xcassets */; };
+		DF43BC582CBFACB000CD2EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF43BC572CBFACB000CD2EDA /* Preview Assets.xcassets */; };
+		DF43BC5F2CBFAD3E00CD2EDA /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC5E2CBFAD3E00CD2EDA /* ChatViewModel.swift */; };
+		DF43BC612CBFAD5600CD2EDA /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC602CBFAD5600CD2EDA /* AIService.swift */; };
+		DF43BC632CBFAD6E00CD2EDA /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC622CBFAD6E00CD2EDA /* MessageBubble.swift */; };
+		DF43BC652CBFAD7E00CD2EDA /* QuickSymptomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC642CBFAD7E00CD2EDA /* QuickSymptomButton.swift */; };
+		DF43BC672CBFAD8A00CD2EDA /* ChatInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BC662CBFAD8A00CD2EDA /* ChatInput.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF09ACFF2CC0070F00A5DA89 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
+		DF43BC4D2CBFACAF00CD2EDA /* AiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF43BC502CBFACAF00CD2EDA /* AiChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiChatApp.swift; sourceTree = "<group>"; };
+		DF43BC522CBFACAF00CD2EDA /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		DF43BC542CBFACB000CD2EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF43BC572CBFACB000CD2EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF43BC5E2CBFAD3E00CD2EDA /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		DF43BC602CBFAD5600CD2EDA /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		DF43BC622CBFAD6E00CD2EDA /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		DF43BC642CBFAD7E00CD2EDA /* QuickSymptomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSymptomButton.swift; sourceTree = "<group>"; };
+		DF43BC662CBFAD8A00CD2EDA /* ChatInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInput.swift; sourceTree = "<group>"; };
+		DF43BC682CBFADF100CD2EDA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DF43BC692CBFAE7D00CD2EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF43BC4A2CBFACAF00CD2EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF43BC442CBFACAF00CD2EDA = {
+			isa = PBXGroup;
+			children = (
+				DF09ACFF2CC0070F00A5DA89 /* .gitignore.md */,
+				DF43BC4F2CBFACAF00CD2EDA /* AiChat */,
+				DF43BC4E2CBFACAF00CD2EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF43BC4E2CBFACAF00CD2EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF43BC4D2CBFACAF00CD2EDA /* AiChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF43BC4F2CBFACAF00CD2EDA /* AiChat */ = {
+			isa = PBXGroup;
+			children = (
+				DF43BC692CBFAE7D00CD2EDA /* Info.plist */,
+				DF43BC662CBFAD8A00CD2EDA /* ChatInput.swift */,
+				DF43BC642CBFAD7E00CD2EDA /* QuickSymptomButton.swift */,
+				DF43BC622CBFAD6E00CD2EDA /* MessageBubble.swift */,
+				DF43BC502CBFACAF00CD2EDA /* AiChatApp.swift */,
+				DF43BC522CBFACAF00CD2EDA /* ChatScreen.swift */,
+				DF43BC682CBFADF100CD2EDA /* Config.xcconfig */,
+				DF43BC602CBFAD5600CD2EDA /* AIService.swift */,
+				DF43BC5E2CBFAD3E00CD2EDA /* ChatViewModel.swift */,
+				DF43BC542CBFACB000CD2EDA /* Assets.xcassets */,
+				DF43BC562CBFACB000CD2EDA /* Preview Content */,
+			);
+			path = AiChat;
+			sourceTree = "<group>";
+		};
+		DF43BC562CBFACB000CD2EDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF43BC572CBFACB000CD2EDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF43BC4C2CBFACAF00CD2EDA /* AiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF43BC5B2CBFACB000CD2EDA /* Build configuration list for PBXNativeTarget "AiChat" */;
+			buildPhases = (
+				DF43BC492CBFACAF00CD2EDA /* Sources */,
+				DF43BC4A2CBFACAF00CD2EDA /* Frameworks */,
+				DF43BC4B2CBFACAF00CD2EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiChat;
+			productName = AiChat;
+			productReference = DF43BC4D2CBFACAF00CD2EDA /* AiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF43BC452CBFACAF00CD2EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DF43BC4C2CBFACAF00CD2EDA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DF43BC482CBFACAF00CD2EDA /* Build configuration list for PBXProject "AiChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF43BC442CBFACAF00CD2EDA;
+			productRefGroup = DF43BC4E2CBFACAF00CD2EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF43BC4C2CBFACAF00CD2EDA /* AiChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF43BC4B2CBFACAF00CD2EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF43BC582CBFACB000CD2EDA /* Preview Assets.xcassets in Resources */,
+				DF43BC552CBFACB000CD2EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF43BC492CBFACAF00CD2EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF43BC532CBFACAF00CD2EDA /* ChatScreen.swift in Sources */,
+				DF43BC672CBFAD8A00CD2EDA /* ChatInput.swift in Sources */,
+				DF43BC612CBFAD5600CD2EDA /* AIService.swift in Sources */,
+				DF43BC632CBFAD6E00CD2EDA /* MessageBubble.swift in Sources */,
+				DF43BC5F2CBFAD3E00CD2EDA /* ChatViewModel.swift in Sources */,
+				DF43BC512CBFACAF00CD2EDA /* AiChatApp.swift in Sources */,
+				DF43BC652CBFAD7E00CD2EDA /* QuickSymptomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF43BC592CBFACB000CD2EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF43BC682CBFADF100CD2EDA /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF43BC5A2CBFACB000CD2EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF43BC682CBFADF100CD2EDA /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF43BC5C2CBFACB000CD2EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF43BC682CBFADF100CD2EDA /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
+				DEVELOPMENT_TEAM = LGX4B4WC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AiChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.AiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF43BC5D2CBFACB000CD2EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF43BC682CBFADF100CD2EDA /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
+				DEVELOPMENT_TEAM = LGX4B4WC66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AiChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.indextrown.AiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF43BC482CBFACAF00CD2EDA /* Build configuration list for PBXProject "AiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF43BC592CBFACB000CD2EDA /* Debug */,
+				DF43BC5A2CBFACB000CD2EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF43BC5B2CBFACB000CD2EDA /* Build configuration list for PBXNativeTarget "AiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF43BC5C2CBFACB000CD2EDA /* Debug */,
+				DF43BC5D2CBFACB000CD2EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF43BC452CBFACAF00CD2EDA /* Project object */;
+}
